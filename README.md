@@ -40,3 +40,7 @@ npm run build    # 产物在 dist/
 - `src/engine.ts` — 单一 rAF 循环：转速惯性、消费音频事件、频谱、进度、自动换曲；直接写 DOM，不触发 React 重渲染
 - `src/App.tsx` — 离散状态机（scene / playing / favorite）、键盘、滑动、焦点交接
 - `src/components/*` — 唱机、磁带、频谱、场景
+
+## 许可证
+
+本仓库代码以 [MIT](LICENSE) 许可发布。视觉设计参考自上文链接的视频，其原始创意（配色、版式、唱机与磁带造型等）归原作者所有，MIT 许可仅覆盖本仓库的代码。
